@@ -10,9 +10,12 @@ int main(void)
 
 	counter = 0;
 
-	while (counter <= 9)
+	while (counter <= 25) /* total size of alphabet -> 25+1 */
 	{
-		putchar(counter + '0');
+		if ((counter == 4) || (counter == 16)) /* 4+1 is e, 16+1 is q */
+			continue;
+
+		putchar(counter + 'a');
 		counter++;
 	}
 	putchar('\n');
