@@ -1,1 +1,2 @@
-# alx-low_level_programming
+all if else commands 
+i alx-low_level_programming
