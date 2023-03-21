@@ -1,4 +1,4 @@
-#include <main.c>
+#include "main.h"
 /**
 * print_alphabet - print the alphabet in lowercae followed by  a newline
 *
